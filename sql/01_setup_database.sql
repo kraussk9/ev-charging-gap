@@ -38,3 +38,23 @@ CREATE TABLE IF NOT EXISTS private_bevs (
     bevs          INT,
     PRIMARY KEY (area_code, join_quarter)
 );
+
+-- European comparison table (IEA data: stays in this local database only, never pushed)
+-- One row per country per year; numbers stored as DOUBLE because the IEA
+-- uses estimates with decimals (e.g. 30.9 charging points)
+
+CREATE TABLE IF NOT EXISTS europe_comparison (
+    country              VARCHAR(50)  NOT NULL,
+    year                 INT          NOT NULL,
+    bev_stock            DOUBLE,
+    fast_points          DOUBLE,
+    slow_points          DOUBLE,
+    ultrafast_points     DOUBLE,
+    fast_plus_points     DOUBLE,
+    total_points         DOUBLE,
+    bevs_per_point       DOUBLE,
+    bevs_per_fast_point  DOUBLE,
+    is_europe            BOOLEAN,
+    is_eu_benchmark      BOOLEAN,
+    PRIMARY KEY (country, year)
+);
