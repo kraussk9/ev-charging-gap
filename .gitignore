@@ -219,5 +219,9 @@ __marimo__/
    # IEA data: licence unclear, so not redistributed (see README)
 data/raw/EV data by country 2026.xlsx
 
+# IEA data: licence doesn't allow redistribution (see README)
+data/raw/EV data by country 2026.xlsx
+data/clean/europe_comparison.csv
+
 # Streamlit
 .streamlit/secrets.toml
