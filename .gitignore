@@ -216,5 +216,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+   # IEA data: licence unclear, so not redistributed (see README)
+   data/raw/EV_data_by_country_2026.xlsx
 # Streamlit
 .streamlit/secrets.toml
