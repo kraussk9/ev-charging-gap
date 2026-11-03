@@ -216,7 +216,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-   # IEA data: licence unclear, so not redistributed (see README)
+# IEA data: licence unclear, so not redistributed (see README)
 data/raw/EV data by country 2026.xlsx
 
 # IEA data: licence doesn't allow redistribution (see README)
