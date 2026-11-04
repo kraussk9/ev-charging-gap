@@ -90,7 +90,7 @@ Tableau Public dashboard
 | Licensed plug-in vehicles by council, quarterly (VEH0142) | [Department for Transport](https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-tables) | [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) |
 | Electric car stock and public charging points by country, yearly | [IEA Global EV Outlook 2026, "EV data by country"](https://www.iea.org/data-and-statistics/data-product/global-ev-outlook-2026) | [IEA Terms of Use](https://www.iea.org/terms/terms-of-use-for-non-cc-material) |
 
-**IEA attribution:** Source: IEA (2026), Global EV Outlook 2026 database, https://www.iea.org/data-and-statistics. All rights reserved. As modified by [Your full name].
+**IEA attribution:** Source: IEA (2026), Global EV Outlook 2026 database, https://www.iea.org/data-and-statistics. All rights reserved. As modified by Keagan Krauss.
 
 **IEA data is not included in this repository** because its terms don't allow redistribution. To reproduce the European comparison, download "EV data by country" from the link above and save it as `data/raw/EV data by country 2026.xlsx`.
 
